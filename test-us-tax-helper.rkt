@@ -18,8 +18,6 @@
     
 
 ; now check one of these values (collected 2020) against one I used in the past
-;
-;(define (abs-diff x y)  (abs (- x y)))
 (define epsilon 0.001)
 
 ; from my notes:
