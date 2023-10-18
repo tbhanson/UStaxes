@@ -17,6 +17,14 @@
 
 (define (dollars-per-euro-by-year year)
   (cond
+    [(equal? year 2004) 1.244143]
+    [(equal? year 2005) 1.246376]
+    [(equal? year 2006) 1.256316]
+    [(equal? year 2007) 1.370412]
+    [(equal? year 2008) 1.471366]
+    [(equal? year 2009) 1.39448]
+    [(equal? year 2010) 1.327386]
+    
     [(equal? year 2011) 1.392705]
     [(equal? year 2012) 1.285697]
     [(equal? year 2013) 1.328464]
